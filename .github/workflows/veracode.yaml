@@ -18,7 +18,7 @@ jobs:
           NotificationEndpointDebug: ${{ secrets.NotificationEndpointDebug }}
           NotificationEndpointRelease: ${{ secrets.NotificationEndpointRelease }}
         run: |
-            cd /Users/runner/work/ThilagshCodes/alfresco-mobile-workspace-ios/
+            cd /Users/runner/work/alfresco-mobile-workspace-ios/alfresco-mobile-workspace-ios
             gem install bundler:2.3.11
             bundle install
             bundle exec pod install
