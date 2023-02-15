@@ -20,7 +20,6 @@ jobs:
         run: |
             cd /Users/runner/work/alfresco-mobile-workspace-ios/alfresco-mobile-workspace-ios
             gem install bundler:2.3.11
-            gem install cocoapods
             bundle install
             bundle exec pod install
       
