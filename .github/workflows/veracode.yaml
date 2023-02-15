@@ -34,7 +34,7 @@ jobs:
         run: |
             xcodebuild archive \
               -workspace ContentApp.xcworkspace \
-              -scheme Mastodon \
+              -scheme ContentApp \
               -configuration Debug \
               -destination generic/platform=iOS \
               -archivePath ContentApp.xcarchive \
